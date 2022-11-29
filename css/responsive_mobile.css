@@ -1,0 +1,342 @@
+/* RESPONSIVE MOBILE BREAKPOINT A 767PX */
+
+@media screen and (max-width: 767px) {
+
+    /* CODE DE L'EN TÊTE DU SITE */
+
+    #booki {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 27px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    header p {
+        margin-left: 15px;
+    }
+
+    #barre_recherche {
+        width: 100%;
+        font-weight: bold;
+
+    }
+
+    #bouton_recherche {
+        display: none;
+    }
+
+    #geolocalisation {
+        margin-left: 15px;
+    }
+
+    #bouton_loupe {
+        border: 0px solid;
+        background-color: blue;
+        color: white;
+        border-radius: 0px 10px 10px 0px;
+        padding: 8px 10px 8px 10px;
+        margin-right: 15px;
+    }
+
+    .nav_flex {
+        display: flex;
+        border-bottom: 2px solid rgb(219, 219, 219);
+        gap: 0px;
+        width: 100%;
+    }
+
+    ul {
+        width: 50%;
+        padding: 0px;
+        margin-bottom: -2px;
+    }
+
+    li a {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #hebergement {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 14px;
+    }
+
+    #activite {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 14px;
+    }
+
+    .nav_flex a:hover {
+        color: blue;
+        border-top: 0px;
+        border-bottom: 2px solid blue;
+        padding: 0px;
+    }
+
+    .filtres {
+        gap: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 4px;
+    }
+
+    .filtre_apparence {
+        margin-block-start: auto;
+    }
+
+    #infos {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    /* CODE MOBILE DE LA MISE EN PLACE DES CARTES HEBERGEMENTS ET LES PLUS POPULAIRES */
+
+    #section1 {
+        display: block;
+        width: auto;
+        background-color: white;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .articleh2 {
+        font-size: 22px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    #section2 {
+        width: auto;
+        align-items: stretch;
+        border-radius: 0px;
+    }
+
+    .mise_en_alignement {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mise_en_alignement2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mise_en_place {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card:hover {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    .card2 {
+        width: auto;
+        height: auto;
+        margin: 10px;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+
+    .card_image2 {
+        display: flex;
+        overflow: hidden;
+        width: 115px;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .card_body2 {
+
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card_title2 {
+        margin-bottom: -15px;
+    }
+
+    .card2:hover {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    h3 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #populaire {
+        display: flex;
+        margin-left: -43px;
+        justify-content: space-around;
+        font-size: 19px;
+        margin-left: 0px;
+    }
+
+    .mise_en_alignement {
+        display: flex;
+        width: 100%;
+    }
+
+    .card {
+        width: auto;
+        height: auto;
+        margin: 0px 0px 30px 0px;
+        box-shadow: 0px 0px 7px rgb(212, 210, 210);
+        border-radius: 20px;
+    }
+
+    .mise_en_alignement {
+        display: block;
+
+    }
+
+    .afficher_plus {
+        margin: 0px
+    }
+
+    /* CODE MOBILES DES ACTIVITES A MARSEILLE */
+
+    .section3 {
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .colonne {
+        width: 100%;
+    }
+
+    .card_width {
+        width: 100%;
+    }
+
+    .mise_en_place2 {
+        display: block;
+    }
+
+    .card_grande {
+        width: auto;
+        height: auto;
+        margin: 0px;
+
+        margin: 0px 0px 30px 0px;
+        box-shadow: 0px 0px 7px rgb(212, 210, 210);
+        border-radius: 20px;
+    }
+
+    .card_image_grande img {
+        max-height: 120px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .card_image_grande {
+        height: 120px;
+    }
+
+    .card_grande:hover {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    #card_grande2 {
+        width: auto;
+        height: auto;
+        margin: 0px 0px 30px 0px;
+        box-shadow: 0px 0px 7px rgb(212, 210, 210);
+    }
+
+    #card_image_grande2 {
+        height: 120px;
+    }
+
+    #card_grande2:hover {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    #card_image_grande3 {
+        height: auto;
+    }
+
+    #card_image_grande3 img {
+        height: 120px;
+    }
+
+    #card_grande3 {
+        width: auto;
+        height: auto;
+        margin: 0px 0px 30px 0px;
+        box-shadow: 0px 0px 7px rgb(212, 210, 210);
+    }
+
+    #card_grande3:hover {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    #card_grande4 {
+
+        width: auto;
+        height: auto;
+        margin: 0px 0px 30px 0px;
+        box-shadow: 0px 0px 7px rgb(212, 210, 210);
+    }
+
+    #card_image_grande4 {
+        height: 120px;
+
+    }
+
+    #card_grande4:hover {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    #card_grande5 {
+
+        width: auto;
+        height: auto;
+        margin: 0px 0px 30px 0px;
+        box-shadow: 0px 0px 7px rgb(212, 210, 210);
+    }
+
+    #card_grande5:hover {
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+
+    #card_image_grande5 {
+        height: 120px;
+    }
+
+    /* CODE DU BAS DE LA PAGE MOBILE */
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer ul {
+        margin-left: 15px;
+    }
+
+}

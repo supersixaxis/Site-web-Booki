@@ -1,0 +1,741 @@
+html {
+  margin: auto;
+  max-width: 1300px;
+
+}
+
+* {
+  font-family: 'Raleway', sans-serif;
+
+}
+ /* CODE DE L'EN TÊTE DU SITE */
+
+#booki {
+  display: flex;
+  justify-content: space-between;
+  ;
+}
+
+#booki img {
+  max-width: 100px;
+  margin-left: 15px
+}
+
+h1 {
+  margin-left: 15px;
+}
+
+header p {
+  margin-left: 15px;
+}
+
+#barre {
+  display: flex;
+}
+
+#barre_recherche {
+  padding: 7px 10px 5px 10px;
+  font-weight: bold;
+  border: 1px solid #F2F2F2;
+
+}
+
+#geolocalisation {
+  border: 0px solid;
+  border-radius: 10px 0px 0px 10px;
+  padding: 8px 12px 10px 12px;
+  background-color: rgb(233, 233, 233);
+  margin-left: 15px;
+}
+
+#bouton_recherche {
+  border: 0px solid;
+  background-color: blue;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+  padding: 8px 10px 8px 10px;
+  font-weight: bold;
+
+}
+
+.nav_flex {
+  display: flex;
+}
+
+nav a {
+  font-size: 1em;
+  color: black;
+  text-decoration: none;
+}
+
+li a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+nav a:hover {
+  color: blue;
+  border-top: 2px solid blue;
+  padding-top: 14px;
+}
+
+.filtres {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.filtre_apparence {
+  display: flex;
+  border: 1px solid rgb(194, 188, 188);
+  border-radius: 20px 20px 20px 20px;
+  padding: 3px 17px 3px 0px;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+p.filtre_apparence {
+  font-weight: bold;
+}
+
+.filtre_apparence:hover {
+  border: 3px groove blue;
+  background-color: #DEEBFF;
+  color: black;
+
+}
+
+.fa-money-bill-wave {
+  color: blue;
+  background-color: #DEEBFF;
+  border: 0px solid;
+  padding: 12px 12px 12px 12px;
+  border-radius: 100%;
+  margin: -5px;
+}
+
+.fa-heart {
+  color: blue;
+  background-color: #DEEBFF;
+  border: 0px solid;
+  padding: 12px 12px 12px 12px;
+  border-radius: 100%;
+  margin: -5px;
+
+}
+
+.fa-dog {
+  color: blue;
+  background-color: #DEEBFF;
+  border: 0px solid;
+  padding: 12px 12px 12px 12px;
+  border-radius: 100%;
+  margin: -5px;
+}
+
+.fa-info {
+  border: 1px solid rgb(194, 188, 188);
+  padding: 4px 8px 4px 8px;
+  border-radius: 100%;
+  color: blue;
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.fa-child {
+  color: blue;
+  background-color: #DEEBFF;
+  border: 0px solid;
+  padding: 12px 12px 12px 12px;
+  border-radius: 100%;
+  margin: -5px;
+}
+
+.fa-info:hover {
+  border: 3px dotted blue;
+  color: black;
+  background: #fff;
+}
+
+#infos {
+  font-size: 12px;
+}
+
+/* CODE HEERBEGEMENT A MARSEILLE */
+
+#mise_en_place {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mise_en_alignement {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#mise_en_alignement2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#section1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  width: 60%;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  align-items: baseline;
+  margin-left: 15px;
+
+}
+
+.afficher_plus:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.afficher_plus {
+  font-weight: bold;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#section2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #F2F2F2;
+  width: 33%;
+  border-radius: 20px;
+  align-items: center;
+  margin-right: 5px;
+}
+#populaire 
+{
+  margin-right: 0px;
+}
+
+.articleh2 {
+  margin-left: 30px;
+}
+
+.afficher_plus {
+  margin-left: 30px;
+}
+
+.image {
+  border: 1px solid;
+  box-shadow: 0px 0px 4px 4px #F2F2F2;
+}
+
+.card {
+  width: 203px;
+  height: 174px;
+  margin: 25px;
+  background-color: white;
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 20px;
+  padding: 2px 2px 2px 2px;
+}
+
+.card a {
+  color: #333;
+  text-decoration: none;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.card_image {
+  height: 110px;
+  overflow: hidden;
+  border-radius: 20px 20px 00px 00px;
+}
+
+.card_image img {
+  max-height: 120px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card_body {
+  text-align: start;
+  padding: 0px 20px;
+}
+
+.card_title {
+  font-size: 12px;
+  margin-top: -7px;
+}
+
+.card_prix {
+  font-size: 11px;
+  margin-top: -8px;
+}
+
+.fa-star {
+  color: blue;
+}
+
+/* CODE LES PLUS POPULAIRE A MARSEILLE */
+
+.card2 {
+  display: flex;
+  width: 273px;
+  height: 110px;
+  margin: 30px;
+  background-color: white;
+  box-shadow: 0px 5px 20px #999;
+  border-radius: 20px;
+  padding: 2px 2px 2px 2px;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.card2 a {
+  color: #333;
+  text-decoration: none;
+}
+
+.card2:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.card_image2 {
+  height: 110px;
+  display: flex;
+  overflow: hidden;
+  width: 100px;
+  overflow: hidden;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.card_image2 img {
+  max-height: 150px;
+  max-width: 100px;
+  width: 100px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card_body2 {
+  padding: 0px 0px;
+  display: flex;
+  max-width: 55%;
+  flex-wrap: wrap;
+}
+
+.card_title2 {
+  font-size: 12px;
+  margin-top: 0px;
+  display: flex;
+}
+
+.card_prix2 {
+  font-size: 11px;
+  margin-top: 0px;
+  display: flex;
+}
+
+.card_prix2 p {
+  margin-bottom: 0px;
+  margin-top: -7px;
+}
+
+.etoile {
+
+  font-size: 11px;
+  margin-top: 20px;
+}
+
+/* CODE DES ACTIVITES A MARSEILLE */
+
+.mise_en_place2 {
+  display: flex;
+}
+
+.section3 {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.card_grande {
+  display: flex;
+  width: 276px;
+  height: 400px;
+  margin: 0px 30px 30px 15px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(197, 195, 195);
+  border-radius: 20px;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.card_grande a {
+  color: #333;
+  text-decoration: none;
+}
+
+.card_grande:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.card_image_grande {
+  height: 360px;
+  overflow: hidden;
+  border-radius: 20px 20px 00px 00px;
+}
+
+.card_image_grande img {
+  height: 110%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card_body_grande {
+  display: flex;
+  text-align: start;
+  padding: 0px 20px;
+}
+
+.card_title_grande {
+  font-size: 12px;
+}
+
+#card_grande2 {
+  display: flex;
+  width: 280px;
+  height: 142px;
+  margin: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(197, 195, 195);
+  border-radius: 20px;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+#card_grande2 a {
+  color: #333;
+  text-decoration: none;
+}
+
+#card_grande2:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#card_image_grande2 {
+  height: 97px;
+  overflow: hidden;
+  border-radius: 20px 20px 00px 00px;
+}
+
+#card_image_grande2 img {
+  height: 110%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.colonne {
+  display: flex;
+  flex-direction: column;
+}
+
+#card_grande3 {
+  display: flex;
+  width: 280px;
+  height: 200px;
+  margin: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(197, 195, 195);
+  border-radius: 20px;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+#card_grande3 a {
+  color: #333;
+  text-decoration: none;
+}
+
+#card_grande3:hover {
+
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#card_image_grande3 {
+  height: 155px;
+  overflow: hidden;
+  border-radius: 20px 20px 00px 00px;
+}
+
+#card_image_grande3 img {
+  height: 110%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#card_grande4 {
+  display: flex;
+  width: 290px;
+  height: 130px;
+  margin: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(197, 195, 195);
+  border-radius: 20px;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+#card_grande4 a {
+  color: #333;
+  text-decoration: none;
+}
+
+#card_grande4:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#card_image_grande4 {
+  height: 120px;
+  overflow: hidden;
+  border-radius: 20px 20px 00px 00px;
+}
+
+#card_image_grande4 img {
+  height: 110%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#card_grande5 {
+  display: flex;
+  width: 290px;
+  height: 180px;
+  margin: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(197, 195, 195);
+  border-radius: 20px;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+#card_grande5 a {
+  color: #333;
+  text-decoration: none;
+}
+
+#card_grande5:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#card_image_grande5 {
+  height: 130px;
+  overflow: hidden;
+  border-radius: 20px 20px 00px 00px;
+}
+
+#card_image_grande5 img {
+  height: 110%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* CODE DU BAS DE PAGE : LES RENSEIGNEMENTS ANNEXES */
+
+footer {
+  display: flex;
+  background-color: #F2F2F2;
+  gap: 15%;
+  width: 100%
+}
+
+ul {
+  list-style-type: none;
+}
+
+.black_star {
+  margin-left: 50px;
+}
+
+.sectionh3 a {
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+/* RESPONSIVE DESIGN TABLETTE : BREAKPOINT A 992PX */
+
+@media screen and (max-width: 992px) {
+  * {
+    width: auto;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .filtres {
+    display: flex;
+    gap: 1px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #mise_en_place {
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 160px;
+    height: 175px;
+  }
+
+  .card_image {
+    height: 104px;
+  }
+
+  .card_image img {
+
+    width: 115%;
+  }
+
+  .card_title {
+    margin-top: 0px
+  }
+
+  .card_body {
+    padding: 0px 14px;
+  }
+
+  .card_body2 {
+    padding: 0px 16px;
+    display: flex;
+    max-width: 56%;
+    flex-wrap: wrap;
+  }
+
+  .card2 {
+    width: 200px;
+    height: auto;
+    flex-direction: column-reverse;
+  }
+
+  .card_image2 {
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .card_image2 img {
+    max-width: none;
+    width: 200px;
+  }
+
+  .section3
+  {
+    flex-wrap: wrap;
+  }
+
+  .colonne
+  {
+    width: 50%;
+  }
+  .card_width
+  {
+    width: 50%;
+  }
+  .card_grande
+  {
+    width: 90%;
+  }
+  #card_grande2 {
+    width: 90%;
+  }
+
+  #card_grande3 {
+    width: 90%;
+  }
+
+  #card_grande4 {
+    width: 90%;
+  }
+
+  #card_grande5 {
+    width: 90%;
+  }
+
+  footer {
+    gap: 0%;
+  }
+
+}
+
+/* RESPONSIVE DE LA PARTIE ACTIVITES A MARSEILLE BREAKPOINT 1316PX A 992PX*/
+
+@media all and (min-width: 992px) and (max-width: 1316px) {
+  .section3
+  {
+    flex-wrap: nowrap;
+    margin-right: 5px;
+  }
+  .card_grande {
+    width: 90%;
+  }
+  .colonne
+  {
+    width: 50%;
+  }
+
+  #card_grande2 {
+    width: 90%;
+    margin-left: 10px;
+
+  }
+
+  #card_grande3 {
+    width: 90%;
+    margin-left: 10px;
+  }
+
+  #card_grande4 {
+    width: 90%;
+    margin-left: 15px;
+  }
+
+  #card_grande5 {
+    width: 90%;
+    margin-left: 15px;
+  }
+
+  #section2
+  {
+    width: 35%;
+    margin-right: 10px;
+  }
+} 
